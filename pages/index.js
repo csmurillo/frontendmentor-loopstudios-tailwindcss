@@ -92,7 +92,7 @@ export default function Home({creations}) {
         <Footer></Footer>
       </div>
       <div className="attribution bg-black text-white flex place-content-center">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener"> Frontend Mentor</a>. 
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer"> Frontend Mentor</a>. 
         Coded by <a href="#">Angel Murillo</a>.
       </div>
     </>
