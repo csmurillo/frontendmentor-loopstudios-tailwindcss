@@ -1,31 +1,42 @@
 
 import Image from 'next/image'
 
-const MainSection = ()=>{
+const MainSection = ({menuToggle})=>{
     return(
-        <div className="px-5 py-10 h-screen bg-gray-800 bg-mobile-image-hero bg-cover bg-no-repeat sm:bg-desktop-image-hero">
+        <div className="px-5 py-10 h-screen bg-gray-800 bg-mobile-image-hero bg-cover bg-no-repeat
+                        md:px-36 md:py-20 md:bg-desktop-image-hero md:bg-center">
              <header className='flex place-content-between'>
-                 <div>
+                 <div className='w-40'>
                      <Image src="/images/logo.svg" width={162} height={26}/>
                  </div>
-                 <div className='hidden sm:block'>
+                 <div className='hidden lg:block'>
                     <nav>
-                        <ul className='flex'>
-                            <li>About</li>
-                            <li>Careers</li>
-                            <li>Events</li>
-                            <li>Product</li>
-                            <li>Support</li>
+                        <ul className='flex font-alata'>
+                            <li className='relative sm:px-5'>
+                                <p className='text-white hover:cursor-pointer highlight pb-2'>About</p>
+                            </li>
+                            <li className='relative sm:px-5'>
+                                <p className='text-white hover:cursor-pointer highlight pb-2'>Careers</p>
+                            </li>
+                            <li className='relative sm:px-5'>
+                                <p className='text-white hover:cursor-pointer highlight pb-2'>Events</p>
+                            </li>
+                            <li className='relative sm:px-5'>
+                                <p className='text-white hover:cursor-pointer highlight pb-2'>Product</p>
+                            </li>
+                            <li className='relative sm:px-5'>
+                                <p className='text-white hover:cursor-pointer highlight pb-2'>Support</p>
+                            </li>
                         </ul>
                     </nav>
                  </div>
-                 <div className='sm:hidden'>
-                    <Image src="/images/icon-hamburger.svg" width={24} height={16}/>
+                 <div className='lg:hidden'>
+                    <Image className='hover:cursor-pointer' src="/images/icon-hamburger.svg" width={24} height={16} onClick={menuToggle}/>
                  </div>
              </header>
-             <div className='mt-44'>
-                 <div className='border-2 border-white p-5'>
-                     <h1 className='text-white text-4.5xl font-josefinSans font-light'>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+             <div className='mt-44 sm:mt-36'>
+                 <div className='border-2 border-white p-5 md:w-[100%] lg:w-[75%] xl:w-7/12 sm:p-10'>
+                     <h1 className='text-white text-4.5xl lg:text-7xl font-josefinSans font-light'>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
                  </div>
              </div>
         </div>
@@ -34,3 +45,6 @@ const MainSection = ()=>{
 
 
 export default MainSection;
+
+
+

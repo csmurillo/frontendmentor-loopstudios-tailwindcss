@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.highlight:hover::before{
+    content: '';
+    border-bottom:3px solid white;
+    display: block;
+    position: absolute;
+    bottom:0;
+    width: 30%;
+    left: 35%;
+}
+.highlight-50:hover::before{
+    content: '';
+    border-bottom:3px solid white;
+    display: block;
+    position: absolute;
+    bottom:0;
+    width: 50%;
+    left: 25%;
+}
+.iconHighlight:hover::before{
+    content: '';
+    border-bottom:3px solid white;
+    display: block;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}

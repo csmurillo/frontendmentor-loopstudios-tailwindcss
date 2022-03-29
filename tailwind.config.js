@@ -27,7 +27,7 @@ module.exports = {
       },
       letterSpacing: {
         widest: '.4em'
-      }
+      },
     },
   },
   plugins: [],
