@@ -9,7 +9,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Document</title>
           <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet"></link>
             <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"></link>
         </Head>        
