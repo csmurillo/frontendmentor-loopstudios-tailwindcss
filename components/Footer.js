@@ -5,7 +5,7 @@ const Footer = ()=>{
         <footer className='py-16 px-10 lg:py-10 lg:px-36 bg-black 
                             lg:grid lg:grid-rows-2 lg:grid-cols-4 lg:gap-5'>
             <div className='flex place-content-center mb-6 lg:mb-0 lg:col-start-1 lg:col-end-4 lg:row-span-1 lg:place-content-start'>
-                <Image src="/images/logo.svg" width={150} height={28}/>
+                <Image alt='logo' src="/images/logo.svg" width={150} height={28}/>
             </div>
             <ul className='flex flex-col text-white py-4 font-alata text-lg mb-12 
             lg:py-0 lg:mb-0 lg:flex-row lg:row-start-2 lg:row-end-2 lg:col-start-1 lg:col-end-4 lg:items-end'>
@@ -39,22 +39,22 @@ const Footer = ()=>{
                 <div className='flex w-3/5 sm:w-1/3 lg:w-[90%] xl:w-3/5 justify-between'>
                     <div className='relative'>
                         <div className='hover:cursor-pointer iconHighlight pb-2'>
-                            <Image src='/images/icon-facebook.svg' width={25} height={25}/>
+                            <Image alt='facebook' src='/images/icon-facebook.svg' width={25} height={25}/>
                         </div>
                     </div>
                     <div className='relative'>
                         <div className='hover:cursor-pointer iconHighlight pb-2'>
-                            <Image className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-twitter.svg' width={25} height={25}/>
+                            <Image alt='twitter' className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-twitter.svg' width={25} height={25}/>
                         </div>
                     </div>
                     <div className='relative'>
                         <div className='hover:cursor-pointer iconHighlight pb-2'>
-                            <Image className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-pinterest.svg' width={25} height={25}/>
+                            <Image alt='pinterest' className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-pinterest.svg' width={25} height={25}/>
                         </div>
                     </div>
                     <div className='relative'>
                         <div className='hover:cursor-pointer iconHighlight pb-2'>
-                        <Image className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-instagram.svg' width={25} height={25}/>
+                        <Image alt='instagram' className='hover:border-b-4 hover:cursor-pointer' src='/images/icon-instagram.svg' width={25} height={25}/>
                         </div>
                     </div>
                 </div>

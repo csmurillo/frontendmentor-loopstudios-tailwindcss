@@ -6,10 +6,10 @@ const Menu = ({menuToggle})=>{
             <div>
                 <header className='flex place-content-between'>
                     <div className="relative">
-                        <Image src="/images/logo.svg" width={162} height={26}/>
+                        <Image alt='logo' src="/images/logo.svg" width={162} height={26}/>
                     </div>
                     <div>
-                        <Image className='hover:cursor-pointer' src="/images/icon-close.svg" width={24} height={24} onClick={menuToggle}/>
+                        <Image className='hover:cursor-pointer' alt='close' src="/images/icon-close.svg" width={24} height={24} onClick={menuToggle}/>
                     </div>
                 </header>
             </div>

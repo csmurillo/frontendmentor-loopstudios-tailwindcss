@@ -7,7 +7,7 @@ const MainSection = ({menuToggle})=>{
                         md:px-36 md:py-20 md:bg-desktop-image-hero md:bg-center">
              <header className='flex place-content-between'>
                  <div className='w-40'>
-                     <Image src="/images/logo.svg" width={162} height={26}/>
+                     <Image alt='logo' src="/images/logo.svg" width={162} height={26}/>
                  </div>
                  <div className='hidden lg:block'>
                     <nav>
@@ -31,7 +31,7 @@ const MainSection = ({menuToggle})=>{
                     </nav>
                  </div>
                  <div className='lg:hidden'>
-                    <Image className='hover:cursor-pointer' src="/images/icon-hamburger.svg" width={24} height={16} onClick={menuToggle}/>
+                    <Image className='hover:cursor-pointer' alt='menu-hamburger' src="/images/icon-hamburger.svg" width={24} height={16} onClick={menuToggle}/>
                  </div>
              </header>
              <div className='mt-44 sm:mt-36'>
