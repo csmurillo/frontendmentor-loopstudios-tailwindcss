@@ -13,10 +13,10 @@ const CreationSection = ({ creations })=>{
                     <section key={creation.id} className='group mb-5 relative flex h-36 sm:h-96 p-5 items-end'>
                         <div className='absolute top-0 left-0 h-full w-2/4 bg-gradient-to-r from-black to-bg-slate-200 opacity-50 sm:bg-none -z-10'></div>
                         <div className='sm:hidden group-hover:opacity-50 group-hover:cursor-pointer'>
-                            <Image alt='creation-image' className='absolute -z-20' src={creation.mobileUrl} layout='fill'/>
+                            <Image priority alt='creation-image' className='absolute -z-20' src={creation.mobileUrl} layout='fill'/>
                         </div>
                         <div className='hidden sm:block group-hover:opacity-50 group-hover:cursor-pointer'>
-                            <Image alt='creation-image' className='absolute -z-20' src={creation.desktopUrl} layout='fill'/>
+                            <Image priority alt='creation-image' className='absolute -z-20' src={creation.desktopUrl} layout='fill'/>
                         </div>
                         <h2 className='text-white font-josefinSans text-2xl sm:text-lg lg:text-2xl uppercase w-36 group-hover:text-black group-hover:z-40 group-hover:cursor-pointer'>{creation.title}</h2>
                     </section>

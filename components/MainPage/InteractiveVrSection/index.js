@@ -5,10 +5,10 @@ const InteractiveVrSection = ()=>{
     return(
         <section className='relative mb-10 sm:mb-20'>
             <div className='relative h-56 lg:hidden'>
-                <Image alt='interactive-image' src='/images/mobile/image-interactive.jpg' layout='fill'/>
+                <Image priority alt='interactive-image' src='/images/mobile/image-interactive.jpg' layout='fill'/>
             </div>
             <div className='relative h-96 w-8/12 hidden lg:block'>
-                <Image alt='ineractive-image' src='/images/desktop/image-interactive.jpg' layout='fill'/>
+                <Image priority alt='ineractive-image' src='/images/desktop/image-interactive.jpg' layout='fill'/>
             </div>
             <div className='py-8 px-8 
                             xl:pl-20 xl:pr-32
