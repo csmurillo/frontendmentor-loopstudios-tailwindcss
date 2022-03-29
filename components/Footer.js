@@ -11,7 +11,7 @@ const Footer = ()=>{
             lg:py-0 lg:mb-0 lg:flex-row lg:row-start-2 lg:row-end-2 lg:col-start-1 lg:col-end-4 lg:items-end'>
                 <div className='flex place-content-center'>
                     <li className='relative text-center mb-4 lg:mb-0 lg:mr-5'>
-                        <p className='highlight-50 cursor-pointer pb-2'>Abou</p>
+                        <p className='highlight-50 cursor-pointer pb-2'>About</p>
                     </li>
                 </div>
                 <div className='flex place-content-center'>

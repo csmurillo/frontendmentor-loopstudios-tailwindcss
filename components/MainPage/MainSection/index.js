@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const MainSection = ({menuToggle})=>{
     return(
-        <div className="px-5 py-10 h-screen bg-gray-800 bg-mobile-image-hero bg-cover bg-no-repeat
+        <div className="px-5 py-10 h-[85vh] bg-gray-800 bg-mobile-image-hero bg-cover bg-no-repeat
                         md:px-36 md:py-20 md:bg-desktop-image-hero md:bg-center">
              <header className='flex place-content-between'>
                  <div className='w-40'>
