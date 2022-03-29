@@ -10,7 +10,7 @@ const CreationSection = ({ creations })=>{
             <div className='mb-10 sm:grid sm:grid-cols-4 sm:grid-rows-2 sm:col-span-3 sm:row-span-2 sm:gap-4'>
                 {
                    creations.map(creation=>(
-                    <section className='group mb-5 relative flex h-36 sm:h-96 p-5 items-end'>
+                    <section key={creation.id} className='group mb-5 relative flex h-36 sm:h-96 p-5 items-end'>
                         <div className='absolute top-0 left-0 h-full w-2/4 bg-gradient-to-r from-black to-bg-slate-200 opacity-50 sm:bg-none -z-10'></div>
                         <div className='sm:hidden group-hover:opacity-50 group-hover:cursor-pointer'>
                             <Image alt='creation-image' className='absolute -z-20' src={creation.mobileUrl} layout='fill'/>

@@ -1,6 +1,5 @@
 import react, {useState} from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
 import CreationSection from '../components/MainPage/CreationSection'
 import InteractiveVrSection from '../components/MainPage/InteractiveVrSection'
 import MainSection from '../components/MainPage/MainSection'
@@ -11,41 +10,49 @@ export const getStaticProps = async () => {
 
   const data=[
     {
+        id:1,
         title:'Deep Earth',
         mobileUrl:'/images/mobile/image-deep-earth.jpg',
         desktopUrl:'/images/desktop/image-deep-earth.jpg'
     },
     {
+        id:2,
         title:'Night Arcade',
         mobileUrl:'/images/mobile/image-night-arcade.jpg',
         desktopUrl:'/images/desktop/image-night-arcade.jpg'
     },
     {
+        id:3,
         title:'Soccer Team Vr',
         mobileUrl:'/images/mobile/image-soccer-team.jpg',
         desktopUrl:'/images/desktop/image-soccer-team.jpg'
     },
     {
+        id:4,
         title:'The Grid',
         mobileUrl:'/images/mobile/image-grid.jpg',
         desktopUrl:'/images/desktop/image-grid.jpg'
     },
     {
+        id:5,
         title:'From Up Above Vr',
         mobileUrl:'/images/mobile/image-from-above.jpg',
         desktopUrl:'/images/desktop/image-from-above.jpg'
     },
     {
+        id:6,
         title:'Pocket Borealis',
         mobileUrl:'/images/mobile/image-pocket-borealis.jpg',
         desktopUrl:'/images/desktop/image-pocket-borealis.jpg'
     },
     {
+        id:7,
         title:'The Curiosity',
         mobileUrl:'/images/mobile/image-curiosity.jpg',
         desktopUrl:'/images/desktop/image-curiosity.jpg',
     },
     {
+        id:8,
         title:'Make It Fisheye',
         mobileUrl:'/images/mobile/image-fisheye.jpg',
         desktopUrl:'/images/desktop/image-fisheye.jpg'
